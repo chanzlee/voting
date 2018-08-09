@@ -9,8 +9,27 @@
   <title>Vote Here</title>
 </head>
 <body>
-  <h1>Voting</h1>
   <div class="container">
+    <h1>Voting</h1>
+    <p>Welcome to the 2018 voting booth! Here you can learn to vote for your favorite ....</p>
+    <div class="age-input">
+      <form id="enterAge">
+        <div class="form-group">
+          <label for="age-input">Please enter your age:</label>
+          <input id="age-input" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+    <div id="above18">
+      <p>If you have not registered, please go to the site below:</p>
+      <a href="https://weiapplets.sos.wa.gov/MyVoteOLVR/MyVoteOLVR?textMode=False&language=EN">MyVote.com</a>
+
+    </div>
+    <div id="below18">
+      <p>learn about voting here:</p>
+      <a href="https://www.sos.wa.gov/elections/voter-eligibility.aspx">Voter Eligibilty</a>
+    </div>
   </div>
 </body>
 </html>
